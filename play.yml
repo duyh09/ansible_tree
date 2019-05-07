@@ -1,6 +1,6 @@
 ---
 - name: Config Router Files
-  hosts: localhost
+  hosts: ROUTER
   
   roles:
   - router
