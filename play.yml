@@ -1,0 +1,6 @@
+---
+- name: Config Router Files
+  hosts: localhost
+  
+  roles:
+  - router
