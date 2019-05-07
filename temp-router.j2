@@ -2,6 +2,8 @@ interface loopback 0
 description loopback
 ip address {{item.loopback}}
 !
-interface Gi0/1
+interface gigabitEthernet/1
 ip address {{item.gig1ip}}
 no shut
+!
+ntp server 192.168.50.1 
